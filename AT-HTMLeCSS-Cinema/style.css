@@ -1,0 +1,190 @@
+
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  font-family: 'Montserrat', sans-serif;
+
+}
+ul{
+  margin: 0;
+}
+header{
+  height: 110px;
+  background-color: black;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+header a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer{
+  height: 50px;
+  background-color: black;
+  color: #FFFFFF;  
+}
+header img{
+  width: 70px;
+  vertical-align: middle;
+}
+header li{
+  display: inline-block;
+  margin-right: 14px;
+}
+header div{
+  display: inline-block;
+  text-align: right;
+  width: 25%;
+
+}
+header ul{
+  display: inline-block;
+  width: 70%;
+  padding-top:calc(55px - 35px) ;
+}
+
+.links a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.main{
+  height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+
+  text-align: center;
+}
+.section{
+  background-color: beige;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  align-self: stretch;
+}
+.section p{
+  font-size: 12px;
+}
+.section img {
+  width: 250px;
+}
+.aside{
+  text-align: center;
+  background-color: #a3a3a3;
+  align-self: stretch;
+  display: inline-block;
+  width: 50%;  
+  color: darkblue;
+}
+.buttom{
+  display: inline-block;
+  width: 42%;
+  border: 4px solid orange;
+  background-color:darkblue ;
+  color: white;
+  border-radius: 7px;
+}
+.buttom:hover{
+  background-color:rgba(0, 0, 139, 0.7) ;
+}
+.footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.footer li{
+  list-style-type: none;
+}
+.footer{
+  position: relative;
+}
+div .main2{
+  
+}
+div .cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div .card{
+  display: inline-block;
+  height: 600px;
+  width: 300px;
+  border: 2px solid purple;
+  border-radius: 14px;
+  margin: 0 14px 0 14px;
+  position: relative;
+  text-align: center;
+}
+.card p{
+  color: green;
+}
+.main2 h2{
+  margin-left: 14px;
+}
+span{
+  color: red;
+}
+.x{
+  width: 14px;
+  position: absolute;
+  top: 14px;
+  right: 7px;
+  cursor: pointer;
+}
+.filme{
+  width: 200px;
+}
+.tb{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px auto 10px auto;
+  
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0px;
+  text-align: center;
+  font-weight: bolder;
+  width: 300px;
+}
+td,th{
+  border: 1px solid purple;
+}
+#rowRed{
+  color: brown;
+}
+#two{
+  color: green;
+}
+.main3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main3 p{
+  margin: 0;
+  font-weight: bold;
+}
+#rj{
+  color: rgb(254, 0, 0);
+  text-decoration: underline;
+  margin-bottom: 21px;
+}
+.filiais{
+  text-align: left;
+}
+#wpp{
+  position: fixed;
+  bottom: 65px;
+  right: 65px;
+  width: 70px;
+}
