@@ -2,10 +2,16 @@
     <img src="https://www.infnet.edu.br/infnet/wp-content/themes/infnet.homepage//assets/img/LogoInfnetRodape.png"/>
 </p>
 
-# Questão 1 - Ouro
+# Questão 2 - Ouro
 
 ### Construa uma tela em HTML para a entrada de dados.
 
-Construir uma aplicação que gere os números da Megasena. 
+As pessoas precisam dedicar, no máximo, 30% da sua renda mensal à moradia, 20% à educação e 15% ao transporte. 
 
-Assegure que não vão ser gerados números repetidos.
+Esses valores são uma referência - não devem ser levados “ao pé da letra”.
+
+Construa um programa que, dada a renda mensal, gastos com moradia, educação e transporte, faça um diagnóstico da situação. 
+
+O programa deve informar se moradia, educação e trasnporte estão dentro do orçamento recomendado ou não e qual é o percentual atual de cada um.
+
+#### Valide todas as entradas de dados.
