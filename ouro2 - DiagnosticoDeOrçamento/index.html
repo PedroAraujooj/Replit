@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h1>Gastos</h1>
+    <label>Renda total</label><input type="number" id="total">
+    <br>
+    <br>
+    <label>Gasto com moradia</label><input type="number" id="moradia"><br><br>
+    <label>Gasto com educação</label><input type="number" id="educacao"><br><br>
+    <label>Gasto com transporte</label><input type="number" id="transporte"><br><br>
+    <input type="button" onclick="calcular()" value="calcular">
+    <p id="resul"></p>
+  </div>
+  <div class="table">
+    <table>
+      <thead>
+        <tr>
+          <th>Descrição</th>
+          <th>Ideal %</th>
+          <th>Atual %</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="1">
+          <td>Moradia</td>
+          <td>30</td>
+          <td id="m"></td>
+        </tr>
+        <tr id="2">
+          <td>Educação</td>
+          <td>20</td>
+          <td id="e"></td>
+        </tr>
+        <tr id="3">
+          <td>Transporte</td>
+          <td>15</td>
+          <td id="t"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
