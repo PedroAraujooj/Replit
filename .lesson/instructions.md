@@ -2,16 +2,16 @@
     <img src="https://www.infnet.edu.br/infnet/wp-content/themes/infnet.homepage//assets/img/LogoInfnetRodape.png"/>
 </p>
 
-# Questão 2 - Ouro
+# Questão 3 - Ouro
 
 ### Construa uma tela em HTML para a entrada de dados.
 
-As pessoas precisam dedicar, no máximo, 30% da sua renda mensal à moradia, 20% à educação e 15% ao transporte. 
+Construa um programa que solicite do usuário o seu peso e a sua altura e mostre o cálculo do seu Índice de Massa Corpórea - IMC.
 
-Esses valores são uma referência - não devem ser levados “ao pé da letra”.
+_IMC = peso (kg) / altura² (m)_ 
 
-Construa um programa que, dada a renda mensal, gastos com moradia, educação e transporte, faça um diagnóstico da situação. 
+Utilize como referência o site abaixo para criar uma tela que mostre a classificação do IMC, ou seja, "magreza", "normal", "sobrepeso", "obesidade" ou "obesidade grave".
 
-O programa deve informar se moradia, educação e trasnporte estão dentro do orçamento recomendado ou não e qual é o percentual atual de cada um.
+https://www.programasaudefacil.com.br/calculadora-de-imc
 
 #### Valide todas as entradas de dados.
