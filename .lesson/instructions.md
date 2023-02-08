@@ -2,16 +2,12 @@
     <img src="https://www.infnet.edu.br/infnet/wp-content/themes/infnet.homepage//assets/img/LogoInfnetRodape.png"/>
 </p>
 
-# Questão 3 - Ouro
+# Questão 5 - Ouro
 
 ### Construa uma tela em HTML para a entrada de dados.
 
-Construa um programa que solicite do usuário o seu peso e a sua altura e mostre o cálculo do seu Índice de Massa Corpórea - IMC.
+Escreva um programa que simule um caixa eletrônico que receba um valor de saque inteiro e múltiplo de 10 e mostre quantas notas de 100, 50, 20 e 10 ele paga. 
 
-_IMC = peso (kg) / altura² (m)_ 
-
-Utilize como referência o site abaixo para criar uma tela que mostre a classificação do IMC, ou seja, "magreza", "normal", "sobrepeso", "obesidade" ou "obesidade grave".
-
-https://www.programasaudefacil.com.br/calculadora-de-imc
+#### Não considere a quantidade de notas disponíveis no cofre do caixa-eletrônico.
 
 #### Valide todas as entradas de dados.
